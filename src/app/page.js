@@ -4,7 +4,8 @@ export default function Home() {
   useGSAP (() => 
     {
       gsap.to("#blue-box", {
-        x: 250
+        x: 250,
+        yoyo: true,
       })
     }, [])
   return (
